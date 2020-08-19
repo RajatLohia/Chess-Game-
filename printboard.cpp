@@ -4,9 +4,9 @@ void printboard()
 	{
 		for(int s=0;s<8;s++)
 		{
-			printf("[%c]",*board[r][s]);
+			cout<<"["<<board[r][s]<<"]";
 		}
-		printf("\n");
+		cout<<endl;
 	}
-	printf("\n\n\n");
+	cout<<"\n\n\n";
 }
